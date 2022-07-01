@@ -1000,7 +1000,7 @@ hr {
 	color: #95e1d3;
 }
 
-.footer_title {
+.footer__title {
 	font-size: 14px;
 
 	margin: 30px 0;
@@ -1031,7 +1031,11 @@ hr {
 	color: #333;
 	font-size: 12px;
 
-	line-height: 1.2;
+	display: block;
+
+	margin-bottom: 5px;
+
+	line-height: 1.5;
 
 	text-transform: uppercase;
 	text-decoration: none;
@@ -1046,6 +1050,25 @@ hr {
 	font-weight: 300;
 	color: #999;
 	font-style: italic;
+}
+
+/* * == Instagram == */
+
+.instagram {
+	display: flex;
+	justify-content: space-between;
+
+	flex-wrap: wrap;
+}
+
+.instagram__item {
+	width: 32.3333%;
+
+	border-bottom: 1px solid #fff;
+}
+
+.instagram__item img {
+	display: block;
 }
 
 /* ? == Subscribe == */
@@ -1112,4 +1135,21 @@ hr {
 
 .subscribe__btn:focus {
 	outline: 0;
+}
+
+/* ? == Copyright == */
+
+.copyright {
+	font-size: 14px;
+	color: #333;
+
+	border-top: 1px solid #e5e5e5;
+
+	padding: 20px 0;
+
+	text-align: center;
+}
+
+.copyright span {
+	color: #f38181;
 }
